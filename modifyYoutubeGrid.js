@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name         Resize YT frontpage thumbnails
+// @name         Modify Youtube Grid
 // @namespace    http://tampermonkey.net/
 // @version      2025-10-15
-// @description  Resize YT frontpage thumbnails
+// @description  Modifies main content grid on YouTube home page.
 // @author       jreef
 // @match        https://www.youtube.com/
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
 
-const itemsPerRow = '5';
+const itemsPerRow = '4';
 
 (function() {
     'use strict';
